@@ -17,7 +17,7 @@ package.check <- plyr::llply(packages, FUN = function(x) {
 })
 
 # Define working directory
-load("~/shiny_pl/data/database_premierleague.RData")
+load("data/database_premierleague.RData")
 
 
 # functions

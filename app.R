@@ -1,4 +1,4 @@
-source('~/shiny_pl/global.R', echo=TRUE)
+source('global.R', echo=FALSE)
 
 shiny::shinyApp(
 
