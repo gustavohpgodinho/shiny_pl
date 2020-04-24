@@ -882,7 +882,7 @@ sidebar_info <- function(){
         coronavirus pandemic and to improve my knowledge in web scraping and Shiny, I decided to create this 
         application. The target of this shiny app is join informations about clubs and players features.',
                       shiny::strong('Click in a club to open your profile page.'),
-                      style = "font-size:18px"),
+                      style = "font-size:17px"),
                     shiny::br(),
                     shiny::p(shiny::strong('Source'), style = "font-size:20px"),
                     shiny::p(
@@ -893,8 +893,9 @@ sidebar_info <- function(){
                       shiny::tags$a(target ="_blank", href = 'https://www.fifaindex.com/players/', 'fifaindex.com'), 
                       'using web scraping at 24/04/2020. 
         The dataset is available to download in', 
-                      shiny::tags$a(target = "_blank", href = 'https://www.github.com', 'page of project in github.'),
-                      style = "font-size:18px"),
+                      shiny::tags$a(target = "_blank", href = 'https://github.com/gustavohpgodinho/shiny_pl', 'page of project in github.'),
+        'This app has not yet been finalized.',              
+                      style = "font-size:17px"),
                     shiny::br(),
                     shiny::p(shiny::strong('Developer'), style = "font-size:20px"),
                     shiny::p(
@@ -908,7 +909,7 @@ sidebar_info <- function(){
                       shiny::br(),
                       shiny::em(' gustavohpgodinho@gmail.com'),
                       shiny::br(),
-                      style = 'font-size:18px'
+                      style = 'font-size:17px'
                       
                     ), align = 'justify')
     )
