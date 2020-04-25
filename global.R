@@ -1,9 +1,4 @@
-require(shinyWidgets)
-require(shiny)
-require(stringi)
-require(tidyverse)
-require(leaflet)
-require(plotly)
+
 # Used packages
 packages = c("shinyWidgets", "shiny", "stringi", "tidyverse", "leaflet","plotly",
             "shinyWidgets")
