@@ -5,6 +5,6 @@ account: gustavogodinho
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2182139
-bundleId: 3061966
+bundleId: 3061998
 url: https://gustavogodinho.shinyapps.io/shiny_pl/
-when: 1587772713.86204
+when: 1587773594.981

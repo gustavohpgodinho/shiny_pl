@@ -8,6 +8,9 @@ packages = c("shinyWidgets", "shiny", "stringi", "tidyverse", "leaflet","plotly"
 package.check <- plyr::llply(packages, FUN = function(x) {
   if (!require(x, character.only = TRUE)) {
     install.packages(x, dependencies = TRUE)
+    require(x, character.only = TRUE)
+  } else{
+    require(x, character.only = TRUE)
   }
 })
 
