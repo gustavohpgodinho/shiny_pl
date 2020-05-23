@@ -15,10 +15,7 @@ packages = c("shinyWidgets", "shiny", "stringi", "tidyverse", "leaflet","plotly"
 package.check <- plyr::llply(packages, FUN = function(x) {
   if (!require(x, character.only = TRUE)) {
     install.packages(x, dependencies = TRUE)
-    require(x)
-  } else{
-    require(x)
-  }
+  } 
 })
 
 # Define working directory
@@ -896,7 +893,7 @@ sidebar_info <- function(){
                       shiny::tags$a(target ="_blank", href = 'https://en.wikipedia.org/wiki/2019%E2%80%9320_Premier_League', 'page of Premier League in Wikipedia'),
                       'and ',
                       shiny::tags$a(target ="_blank", href = 'https://www.fifaindex.com/players/', 'fifaindex.com'), 
-                      'using web scraping at 24/04/2020. 
+                      'using web scraping at 24/04/2020. Updated at 23/05/2020. 
         The dataset is available to download in', 
                       shiny::tags$a(target = "_blank", href = 'https://github.com/gustavohpgodinho/shiny_pl', 'page of project in github.'),
         'This app has not yet been finalized.',              
